@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-btmtie$+_o_ytjr#g+3n-&#-eyaun10kmm^3e2+@e=*-qw_^(8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['frozen-brushlands-78648.herokuapp.com', '127.0.0.1']
 
