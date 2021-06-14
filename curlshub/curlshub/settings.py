@@ -79,11 +79,14 @@ WSGI_APPLICATION = 'curlshub.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':  os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd4kokvcqqb1i3g',
+        'USER': 'gmsivukvoqcekk',
+        'PASSWORD': 'b3d6a9f626183e567ec39dae8db5c5ee47328653e27082421c3c30a85c8b1bb5',
+        'HOST': 'ec2-34-195-143-54.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

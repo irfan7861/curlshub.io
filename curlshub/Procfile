@@ -1,1 +1,1 @@
-web: gunicorn curlshub.wsgi
+web: gunicorn curlshub.wsgi --log-file -
